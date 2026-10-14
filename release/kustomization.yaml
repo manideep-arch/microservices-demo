@@ -5,6 +5,7 @@ namespace: boutique
 
 resources:
   - kubernetes-manifests.yaml
+  - frontend-hpa.yaml
 
 patches:
   - target:
